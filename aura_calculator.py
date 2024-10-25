@@ -124,7 +124,7 @@ class AuraCalculator:
     def update_balance_label(self):
         if self.current_user:
             balance = self.users[self.current_user]['balance']
-            self.balance_label.config(text=f"Aura Balance: {balance}")
+            self.balance_label.configure(text=f"Aura Balance: {balance}")
 
     def update_action_history(self):
         self.history_listbox.delete("1.0", "end")
