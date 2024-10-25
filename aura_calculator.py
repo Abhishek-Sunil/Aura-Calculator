@@ -38,9 +38,7 @@ class AuraCalculator:
         self.filtered_actions = list(self.actions.keys())
 
         # Add a logo (replace with your own path if you have a logo image)
-        self.logo = ctk.CTkLabel(root, text="
-      🗿
-      Aura Calculator ✨", font=("Helvetica", 24, "bold"))
+        self.logo = ctk.CTkLabel(root, text=" 🗿Aura Calculator ✨", font=("Helvetica", 24, "bold"))
         self.logo.grid(row=0, column=0, columnspan=3, pady=10)
 
         # UI Elements
